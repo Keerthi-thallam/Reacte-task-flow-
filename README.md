@@ -24,6 +24,12 @@ npm run dev
 
 The development server runs at `http://localhost:3000` by default. If that port is busy, Vite selects the next available port.
 
+## Deploying to GitHub Pages
+
+The GitHub Actions workflow builds the Vite app and deploys the generated `dist` directory to GitHub Pages whenever changes are pushed to `main`.
+
+In the repository, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. After the workflow completes, use the Pages URL shown there.
+
 ## Available Scripts
 
 - `npm run dev` starts the development server.
